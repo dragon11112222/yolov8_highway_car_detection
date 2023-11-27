@@ -11,7 +11,7 @@ ai hub 교통문제 해결을 위한 cctv 교통 영상(고속도로) 데이터 
 8. [gcp] 라벨 xml 2 txt
 9. [gcp] 학습에 활용할 일부 파일(CH01~04, .png & .txt)만 새로운 폴더에 재구성
 
-10. [gcp] yolo 학습 기본 코드 돌려보기
+10. [gcp] yolo 학습 기본 코드 돌려보기 (validation 결과)
 ![image](https://github.com/dragon11112222/yolov8_highway_car_detection/assets/40597818/e7b48898-eab1-45f7-8beb-78e610bb9c3c)
 
 11. [gcp] 데이터 분석(라벨 클래스 비율 등)으로 학습시킬 이미지 데이터 선별 ------> 여기까지 완료
