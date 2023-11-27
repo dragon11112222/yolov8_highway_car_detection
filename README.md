@@ -12,16 +12,7 @@ ai hub 교통문제 해결을 위한 cctv 교통 영상(고속도로) 데이터 
 9. [gcp] 학습에 활용할 일부 파일(CH01~04, .png & .txt)만 새로운 폴더에 재구성
 
 10. [gcp] yolo 학습 기본 코드 돌려보기
-Ultralytics YOLOv8.0.215 🚀 Python-3.10.13 torch-1.13.1+cu117 CUDA:0 (Tesla V100-SXM2-16GB, 16161MiB)
-                                                              CUDA:1 (Tesla V100-SXM2-16GB, 16161MiB)
-YOLOv8n summary (fused): 168 layers, 3006233 parameters, 0 gradients, 8.1 GFLOPs
-val: Scanning /home/jupyter/highway/bbox_highway/test/labels.cache... 3333 images, 0 backgrounds, 0 corrupt: 100%|██████████| 3333/3333 [00:00<?, ?it/s]
-                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 27/27 [01:51<00:00,  4.14s/it]
-                   all       3333      51017      0.672      0.602      0.653      0.457
-                   car       3333      38759      0.812      0.817      0.869      0.631
-                   bus       3333       1868      0.623      0.378      0.477      0.319
-                 truck       3333      10390      0.582      0.611      0.614      0.421
-Speed: 0.2ms preprocess, 0.7ms inference, 0.0ms loss, 0.9ms postprocess per image
+![image](https://github.com/dragon11112222/yolov8_highway_car_detection/assets/40597818/e7b48898-eab1-45f7-8beb-78e610bb9c3c)
 
 11. [gcp] 데이터 분석(라벨 클래스 비율 등)으로 학습시킬 이미지 데이터 선별 ------> 여기까지 완료
 12. [gcp] 버스 & 배경 이미지 데이터 증식 및 재구성
